@@ -1,5 +1,7 @@
 #Generate Javascript and CSS files via Laravel 4 Command line
 
+[![Build Status](https://travis-ci.org/LaravelLegends/assets-generator.svg?branch=master)](https://travis-ci.org/LaravelLegends/assets-generator)
+
 **Instalation**
 
 Run `composer require laravellegends/assets-generator`
