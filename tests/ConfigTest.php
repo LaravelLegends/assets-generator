@@ -6,9 +6,7 @@ class ConfigTest extends Orchestra\Testbench\TestCase
     {
         $paths = Config::get('assets-generator::config.paths');
 
-        $this->assertEquals('public/js/', $paths['js']);
-
-        $this->assertEquals('public/css/', $paths['css']);
+        $this->assertTrue(isset($paths['js'], $paths['css']));
     }
 
     protected function getPackageProviders($app = null)

@@ -3,8 +3,8 @@
 return array(
 
     'paths' => [
-        'js'  => 'public/js/',
-        'css' => 'public/css/'
+        'js'  => public_path('js/'),
+        'css' => public_path('css/')
     ],
 
     'stubs' => [
