@@ -18,6 +18,11 @@ class Provider extends ServiceProvider
 
     public function register()
     {
-        $this->app['artisan']->add(new GeneratorCommand);
+        $this->app['generate.assets'] = $this->app->share(function($app)
+        {
+            return new GeneratorCommand();
+        });
+
+        $this->commands('generate.assets');
     }
 }
