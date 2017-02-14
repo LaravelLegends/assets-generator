@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+       convertErrorsToExceptions="true"
+       colors="true"
+       bootstrap="vendor/autoload.php"
+    >
+    <testsuites>
+      <testsuite name="Assets Generator Test">
+        <directory>tests</directory>
+      </testsuite>
+    </testsuites>
+</phpunit>

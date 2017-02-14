@@ -1,0 +1,4 @@
+.phpintel/
+tests/temp
+composer.lock
+vendor/
